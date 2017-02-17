@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title> epilepsy </title>
+  </head>
+  <body>
+
+<script type="text/javascript" src="processing.min.js">
+</script>
+
+    <script type="text/processing" data-processing-target="processing-canvas">
+      //epilepsy
+
+void setup() {
+  size(1000, 1000);
+  smooth();
+  //frameRate(30);
+  background(0);
+}
+
+void draw() {
+
+  for (int x=0; 
+    x<width; 
+    x+=10) {
+    for (int y=0; 
+      y<height; 
+      y+=10) {
+      float r=random(255);
+      float g=random(255);
+      float b=random(255);
+      stroke(255);
+      fill(r, g, b);
+      rect(x, y, 10, 10);
+    }
+  }
+}
+    </script>
+
+  <canvas id="processing-canvas"> </canvas>
+  </body>
+</html>
