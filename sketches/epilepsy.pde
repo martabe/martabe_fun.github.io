@@ -1,13 +1,3 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title> epilepsy </title>
-  </head>
-  <body>
-
-<script type="text/javascript" src="processing.js">
-</script>
-
-    <script type="text/processing" data-processing-target="processing-canvas">
       //epilepsy
 
 void setup() {
@@ -34,8 +24,3 @@ void draw() {
     }
   }
 }
-    </script>
-
-  <canvas id="processing-canvas"> </canvas>
-  </body>
-</html>
