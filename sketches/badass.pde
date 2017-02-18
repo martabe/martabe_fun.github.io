@@ -1,3 +1,6 @@
+/* @pjs preload="feni_500X500.png"; */
+
+
 float side; //side length of the image, w=h
 float x; // x position of the image, top-left corner
 float y; // y position of the image, top-left corner
