@@ -1,3 +1,5 @@
+﻿/* @pjs preload="feni_500X500.png", "CourierNewPSMT-48.vlw"; */
+
 Button unoButton;
 Button dueButton;
 boolean uno = false; // variabile T o F per il pulsante uno.
