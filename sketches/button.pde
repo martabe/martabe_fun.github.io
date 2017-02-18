@@ -17,7 +17,7 @@ PImage fenicottero;
 
 void settings() {
   //fullScreen();
-  size(800, 800);
+  size(500, 500);
 }
 
 void setup() {
@@ -175,7 +175,7 @@ class Button {
   }
 }
 
-// funzione che definisce se il mouse è sopra il pulsante
+// funzione che definisce se il mouse Ã¨ sopra il pulsante
 boolean mouseOver(float x, float y, float w, float h) {
   boolean overON;
   if (mouseX >x &&
