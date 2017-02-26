@@ -8,7 +8,7 @@ float y; // y position of the image, top-left corner
 PImage fenicottero;
 
 void setup(){
-  size(800, 800, P3D);
+  size(500, 500);
   smooth();
   frameRate(20);
   imageMode(CENTER);
