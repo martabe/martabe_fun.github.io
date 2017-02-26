@@ -8,9 +8,9 @@ float y; // y position of the image, top-left corner
 PImage fenicottero;
 
 void setup(){
-  size(500, 500);
+  size(300, 300);
   smooth();
-  frameRate(20);
+  frameRate(10);
   imageMode(CENTER);
   fenicottero = loadImage("feni_500X500.png");
   side = 30;
