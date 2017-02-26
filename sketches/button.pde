@@ -40,7 +40,7 @@ void draw() {
   background(190);
   fill(#C7F464);
   text("push a button", 50, (height/2)-48);
-/*
+
   unoButton = new Button(
     50, 50, // x and y position
     70, 30, // width and height
@@ -124,7 +124,7 @@ void draw() {
   dueButton.display(due);
   mouseClickHappened = false;
 }
-*/
+
 void mouseClicked() {
   mouseClickHappened = true;
 }
