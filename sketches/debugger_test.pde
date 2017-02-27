@@ -1,5 +1,5 @@
 void setup() {
-  size(400, 647);
+  size(450, 728);
   smooth();
   //frameRate(4);
   background(230);
