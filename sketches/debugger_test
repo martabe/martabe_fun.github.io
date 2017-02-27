@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title> debugger_test </title>
+<script type="text/javascript" src="processing.js"></script>
+
+  </head>
+  <body>
+
+<canvas data-processing-sources="debugger_test.pde"></canvas>
+  
+  </body>
+</html>
