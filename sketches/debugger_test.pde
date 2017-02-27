@@ -4,3 +4,7 @@ void setup() {
   //frameRate(4);
   background(230);
 }
+
+void draw() {
+  background(0);
+}
