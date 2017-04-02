@@ -1,4 +1,4 @@
-      // abeti
+// abeti
 
 // variables
 float lawny; //lawn y position
@@ -143,4 +143,38 @@ void drawNbutton() {
   stroke(73, 176, 242);
   fill(168, 216, 245);
   rect(Nbuttonx, Nbuttony, Nbuttonw, Nbuttonh);
+}
+class Button {
+  float x; //x position of the button
+  float y; //y position of the button
+  float w; //width of the button
+  float h; //height of the button
+  boolean on;
+
+  Button(float tempX, float tempY, float tempW, float tempH) {
+    x=tempX;
+    y=tempY;
+    w=tempW;
+    h=tempH;
+    on=false;
+  }
+
+  void display() {
+    int a; //trasparenza del pulsante
+    if (on) {
+      a=125;
+    } else {
+      a=255;
+    }
+    stroke(0);
+    fill(190, 242, 2, a);
+    rect(x, y, w, h);
+  }
+
+  void mousePressed(int mx, int my) {
+    if (mx > x && mx<(x+w) &&
+      my>y && my<(y+h)) {
+      on = !on;
+    }
+  }
 }
