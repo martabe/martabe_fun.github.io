@@ -8,7 +8,7 @@ void setup() {
   size(900, 600);
   smooth();
   frameRate(30);
-  background(255);
+  background(125);
 }
 
 void draw() {
