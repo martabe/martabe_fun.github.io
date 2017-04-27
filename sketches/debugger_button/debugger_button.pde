@@ -1,7 +1,7 @@
-boolean status1 = TRUE;
-boolean status2 = FALSE;
-boolean mouseON = FALSE;
-mouseover = FALSE;
+boolean status1 = true;
+boolean status2 = false;
+boolean mouseON = false;
+mouseover = false;
 int[] button1 = { 50, 50, 100, 100 }; // Declare, create, assign // x, y, w, h
 
 void setup() {
@@ -19,9 +19,9 @@ void draw() {
 		if (mouseover) {
 			mouseClicked();
 			if (mouseON) {
-				status1 = FALSE;
-				status2 = TRUE;
-				mouseON = FALSE;
+				status1 = false;
+				status2 = true;
+				mouseON = false;
 			}			
 		}
 	}
@@ -40,7 +40,7 @@ void check_mouseover(int[] button_info) {
 		mouseY > button_info[1] &&
 		mouseY < button_info[1] + button_info[3]
 		) {
-			mouseover = TRUE;
+			mouseover = true;
 	}
 }
 
@@ -51,5 +51,5 @@ void draw_button(int[] button_info) {
 }
 
 void mouseClicked() {
-	mouseON = TRUE;	
+	mouseON = true;	
 }
