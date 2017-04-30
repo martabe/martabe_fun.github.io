@@ -34,11 +34,11 @@ int imageW = 300;
 int imageH = 300;
 
 void setup() {
-  font= loadFont("CourierNewPSMT-18.vlw"); //load the font
-  duck = loadImage("duck.png");
-  fenicottero = loadImage("fenicottero.png");
-  leaf = loadImage("leaf.png");
-  idrante = loadImage("idrante.png");
+  font= loadFont("martabe.github.io/sketches/debugger_3/data/CourierNewPSMT-18.vlw"); //load the font
+  duck = loadImage("martabe.github.io/sketches/debugger_3/data/duck.png");
+  fenicottero = loadImage("martabe.github.io/sketches/debugger_3/data/fenicottero.png");
+  leaf = loadImage("martabe.github.io/sketches/debugger_3/data/leaf.png");
+  idrante = loadImage("martabe.github.io/sketches/debugger_3/data/idrante.png");
   textFont(font);
   size(400, 647);
   smooth();
