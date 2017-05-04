@@ -426,7 +426,7 @@ void draw() {
     }
   }
   if (classic) {
-    image(duck, imageX, imageY, imageW, imageH);
+    image(duck, imageX, imageY, imageW-50, imageH-50);
   }
   if (fancy) {
     image(fenicottero, imageX, imageY, imageW, imageH);
