@@ -452,8 +452,8 @@ class Button {
   float w; //width of the button
   float h; //height of the button
   float r; //arrotondamento angoli
-  color fill; //filling color
-  color stroke; //stroke color
+  color fill_colour; //filling color
+  color stroke_colour; //stroke color
 
   Button(float tempX, float tempY, float tempW, float tempH, float tempR, 
     color tempFill, color tempStroke) {
@@ -462,8 +462,8 @@ class Button {
     w=tempW;
     h=tempH;
     r=tempR;
-    fill=tempFill;
-    stroke=tempStroke;
+    fill_colour=tempFill;
+    stroke_colour=tempStroke;
   }
 
   boolean checkMouseOver() {
@@ -479,8 +479,8 @@ class Button {
 
   // funzione che mostra il pulsante
   void drawButton() { //r is for radii of every corner
-    fill(fill);
-    stroke(stroke);
+    fill(fill_colour);
+    stroke(stroke_colour);
     strokeWeight(2);
     rect(x, y, w, h, r);
   }
