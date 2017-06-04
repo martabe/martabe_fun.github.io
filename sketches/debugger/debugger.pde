@@ -1,3 +1,10 @@
+/*
+The * debugger
+a Processing-based sketch
+by Marta Binaghi
+2017
+*/
+
 Button startButton;
 Button classicButton;
 Button fancyButton;
